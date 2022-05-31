@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDE177AC28468CEB00D620B6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE177AB28468CEB00D620B6 /* Movie.swift */; };
+		EDE177AE28468E7700D620B6 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE177AD28468E7700D620B6 /* MovieList.swift */; };
 		EDFD34C928342D11009702B5 /* Movier_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD34C828342D11009702B5 /* Movier_TrackerApp.swift */; };
 		EDFD34CD28342D12009702B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFD34CC28342D12009702B5 /* Assets.xcassets */; };
 		EDFD34D028342D12009702B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFD34CF28342D12009702B5 /* Preview Assets.xcassets */; };
 		EDFD34D228342D12009702B5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD34D128342D12009702B5 /* Persistence.swift */; };
 		EDFD34D528342D12009702B5 /* Movier_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDFD34D328342D12009702B5 /* Movier_Tracker.xcdatamodeld */; };
-		EDFD34DC28342E43009702B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD34DB28342E43009702B5 /* ContentView.swift */; };
+		EDFD34DC28342E43009702B5 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD34DB28342E43009702B5 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDE177AB28468CEB00D620B6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EDE177AD28468E7700D620B6 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		EDFD34C528342D11009702B5 /* Movier Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movier Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFD34C828342D11009702B5 /* Movier_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movier_TrackerApp.swift; sourceTree = "<group>"; };
 		EDFD34CC28342D12009702B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFD34CF28342D12009702B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDFD34D128342D12009702B5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EDFD34D428342D12009702B5 /* Movier_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movier_Tracker.xcdatamodel; sourceTree = "<group>"; };
-		EDFD34DB28342E43009702B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDFD34DB28342E43009702B5 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				EDFD34C828342D11009702B5 /* Movier_TrackerApp.swift */,
-				EDFD34DB28342E43009702B5 /* ContentView.swift */,
+				EDFD34DB28342E43009702B5 /* MovieDetail.swift */,
+				EDE177AD28468E7700D620B6 /* MovieList.swift */,
 				EDFD34CC28342D12009702B5 /* Assets.xcassets */,
 				EDFD34D128342D12009702B5 /* Persistence.swift */,
 				EDFD34D328342D12009702B5 /* Movier_Tracker.xcdatamodeld */,
 				EDFD34CE28342D12009702B5 /* Preview Content */,
+				EDE177AB28468CEB00D620B6 /* Movie.swift */,
 			);
 			path = "Movier Tracker";
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE177AE28468E7700D620B6 /* MovieList.swift in Sources */,
 				EDFD34D528342D12009702B5 /* Movier_Tracker.xcdatamodeld in Sources */,
 				EDFD34D228342D12009702B5 /* Persistence.swift in Sources */,
-				EDFD34DC28342E43009702B5 /* ContentView.swift in Sources */,
+				EDFD34DC28342E43009702B5 /* MovieDetail.swift in Sources */,
 				EDFD34C928342D11009702B5 /* Movier_TrackerApp.swift in Sources */,
+				EDE177AC28468CEB00D620B6 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

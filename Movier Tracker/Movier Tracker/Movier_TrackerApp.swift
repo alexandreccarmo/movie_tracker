@@ -13,8 +13,10 @@ struct Movier_TrackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            let movieStorage = MovieStorage()
+            
+            MovieList()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext).environmentObject(movieStorage)
         }
     }
 }
